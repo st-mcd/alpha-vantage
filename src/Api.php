@@ -40,6 +40,6 @@ class Api
 
     protected static function getKey()
     {
-        return env('AV_KEY', null);
+        return getenv('AV_KEY');
     }
 }
